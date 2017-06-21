@@ -1,0 +1,59 @@
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9e/84/e0/9e84e075585f2bd99892ff4f1cfd9b77.jpg")
+}
+
+#calculator {
+  margin: 0 auto;
+  width: 310px;
+  height: 460px;
+  border: 5px solid #2F4F4F;
+  border-radius: 10px;
+  background-color: #D0C6C6;
+}
+
+#total {
+  height: 70px;
+  width: 270px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding: 0 5px;
+  background-color: #a9a9a9;
+  text-align: right;
+  font-size: 60px;
+  border-radius: 10px;
+  overflow-x: scroll;
+}
+
+#operators {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a:hover {
+  cursor: pointer;
+  float: left;
+  padding: 2px;
+  margin: 5px 6px;
+  text-align: center;
+}
+
+#operators a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 2px;
+  margin: 10px 15px 15px 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
+  background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+  border-radius: 10px;
+}
